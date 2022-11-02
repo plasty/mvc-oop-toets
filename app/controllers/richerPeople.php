@@ -32,8 +32,8 @@ class richerPeople extends Controller
 
     $data = [
       'title' => '<h1>richpeople</h1>',
-      'richpeople' => $rows
+      'richerPeople' => $rows
     ];
-    $this->view('richpeople/index', $data);
+    $this->view('richerPeople/index', $data);
   }
 }
